@@ -1,4 +1,5 @@
 'use client'
+import { use } from "react"; // ✅ Import use() to unwrap params
 import CommentSection from '@/components/CommentSection'
 import AuthoreCard from '@/components/AuthoreCard'
 import React from 'react'
@@ -257,8 +258,9 @@ Site Speed: Optimize performance with lazy loading, caching, and reducing unnece
   },
 ];
 
-function Post({ params }: { params: { id: string } }) {
-  const { id } = params;
+function Post({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = use(params); // ✅ Unwrap params using use()
+
   const post = posts.find((p) => p.id === Number(id));
 
   if (!post) {
@@ -283,7 +285,7 @@ function Post({ params }: { params: { id: string } }) {
         {renderParagraphs(post.description)}
       </div>
 
-      <CommentSection postId={post.id.toString()} />
+      <CommentSection _postId={post.id.toString()} />
       <AuthoreCard />
     </div>
   );

@@ -4,7 +4,7 @@ import BlogCard from "./BlogCard";
 function Mega() {
   const posts = [
     {
-      id: 1,
+      id: "1",
       title:
         "Building a Scalable E-commerce Website with Next.js and Sanity CMS",
       description:
@@ -13,7 +13,7 @@ function Mega() {
       imageUrl: "../images/1.webp",
     },
     {
-      id: 2,
+      id: "2",
       title: "How to Optimize Next.js Performance: Best Practices & Tips",
       description:
         "Discover the best practices for improving performance in Next.js applications, including caching, lazy loading, and more.",
@@ -21,7 +21,7 @@ function Mega() {
       imageUrl: "../images/2.webp",
     },
     {
-      id: 3,
+      id: "3",
       title:
         "Server-Side Rendering (SSR) vs Static Site Generation (SSG) in Next.js",
       description:
@@ -31,7 +31,7 @@ function Mega() {
         "../images/3.avif",
     },
     {
-      id: 4,
+      id: "4",
       title: "Mastering API Routes in Next.js: A Beginner's Guide",
       description:
         "Learn how to create and manage API routes in Next.js for handling backend logic in a frontend-focused project.",
@@ -39,7 +39,7 @@ function Mega() {
       imageUrl: "../images/4.avif",
     },
     {
-      id: 5,
+      id: "5",
       title: "Handling Authentication in Next.js with NextAuth.js",
       description:
         "A step-by-step guide on implementing authentication in Next.js applications using NextAuth.js.",
@@ -47,7 +47,7 @@ function Mega() {
       imageUrl: "../images/5.webp",
     },
     {
-      id: 6,
+      id: "6",
       title: "Creating a Fully Responsive UI with Tailwind CSS & Next.js",
       description:
         "Discover how to build beautiful and fully responsive user interfaces using Tailwind CSS with Next.js.",
@@ -55,7 +55,7 @@ function Mega() {
       imageUrl: "../images/6.webp",
     },
     {
-      id: 7,
+      id: "7",
       title: "Dark Mode in Next.js with Tailwind CSS and useState Hook",
       description:
         "Learn how to add a dark mode toggle to your Next.js website using Tailwind CSS and React’s useState hook.",
@@ -63,7 +63,7 @@ function Mega() {
       imageUrl: "../images/7.webp",
     },
     {
-      id: 8,
+      id: "8",
       title: "How to Improve User Experience (UX) in E-commerce Websites",
       description:
         "Explore essential UX principles and techniques to enhance user experience in e-commerce platforms.",
@@ -71,7 +71,7 @@ function Mega() {
       imageUrl: "../images/8.avif",
     },
     {
-      id: 9,
+      id: "9",
       title: "Building a Dynamic Product Page in Next.js: Step-by-Step Guide",
       description:
         "A detailed guide to building dynamic product pages in Next.js with server-side rendering and API integration.",
@@ -79,7 +79,7 @@ function Mega() {
       imageUrl: "../images/9.avif",
     },
     {
-      id: 10,
+      id: '10',
       title: "Integrating Framer Motion with Next.js for Smooth Animations",
       description:
         "Enhance your Next.js applications with smooth animations using Framer Motion.",
@@ -87,7 +87,7 @@ function Mega() {
       imageUrl: "../images/10.avif",
     },
     {
-      id: 11,
+      id: "11",
       title:
         "Integrating ShipEngine for Shipping & Tracking in Next.js Checkout",
       description:
@@ -96,7 +96,7 @@ function Mega() {
       imageUrl: "../images/11.avif",
     },
     {
-      id: 12,
+      id: "12",
       title: "Essential Features Every Modern E-commerce Website Needs",
       description:
         "A guide to the must-have features for a modern e-commerce website, from user-friendly navigation to payment security.",
@@ -104,7 +104,7 @@ function Mega() {
       imageUrl: "../images/essential.avif",
     },
     {
-      id: 13,
+      id: "13",
       title: "How to Set Up Payment Gateways in Next.js (Stripe, PayPal, etc.)",
       description:
         "Step-by-step instructions on integrating popular payment gateways like Stripe and PayPal into your Next.js store.",
@@ -112,7 +112,7 @@ function Mega() {
       imageUrl: "../images/payment.avif",
     },
     {
-      id: 14,
+      id: "14",
       title: "State Management in E-commerce: Context API vs Redux Toolkit",
       description:
         "Compare and understand state management solutions for e-commerce applications using Context API and Redux Toolkit.",
@@ -120,7 +120,7 @@ function Mega() {
       imageUrl: "../images/managements.webp",
     },
     {
-      id: 15,
+      id: "15",
       title:
         "SEO for E-commerce: How to Optimize Your Next.js Store for Google",
       description:
